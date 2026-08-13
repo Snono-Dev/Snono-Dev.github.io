@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="بورتوفوليو شخصي ومشاريع برمجية." />
+    <title>بورتوفوليو | مطوّر ويب</title>
+    <link rel="preconnect" href="https://api.github.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header container">
+      <a class="brand" href="#home" aria-label="العودة للرئيسية"><span>01</span> <b id="brand-name">PORTFOLIO</b></a>
+      <nav aria-label="التنقل الرئيسي">
+        <a href="#about" data-i18n="navAbout">عني</a>
+        <a href="#projects" data-i18n="navProjects">المشاريع</a>
+        <a href="#contact" data-i18n="navContact">تواصل</a>
+        <button id="language-toggle" type="button" aria-label="Switch language">EN</button>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <p id="hero-eyebrow" class="eyebrow" data-i18n="eyebrow">مطور / صانع تجارب رقمية</p>
+        <h1 id="hero-title" data-i18n-html="heroTitle">أحوّل الأفكار إلى<br /><em>واجهات لها أثر.</em></h1>
+        <p id="hero-copy" class="hero-copy" data-i18n="heroCopy">أصمّم وأبني تجارب ويب سريعة وواضحة، مع اهتمام بالتفاصيل التي تجعل المنتج سهل الاستخدام ولا يُنسى.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects" data-i18n-html="explore">استكشف المشاريع <span>↙</span></a>
+          <a class="button button-link github-profile" href="#" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a id="quick-chat" class="button button-chat" href="session.html" hidden data-i18n="quickChat">محادثة سريعة ↗</a>
+        </div>
+        <div class="hero-orbit" aria-hidden="true"><span>AVAILABLE FOR WORK · AVAILABLE FOR WORK · </span></div>
+      </section>
+
+      <section id="about" class="about container section-grid">
+        <p class="section-label" data-i18n="aboutLabel">01 / عني</p>
+        <div>
+          <div id="about-content" class="about-content"><h2>Loading...</h2></div>
+          <div id="skills" class="skills" aria-label="المهارات">
+            <span>JavaScript</span><span>React</span><span>HTML / CSS</span><span>UI Design</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects container">
+        <div class="projects-heading">
+          <div><p class="section-label" data-i18n="projectsLabel">02 / أعمال مختارة</p><h2 data-i18n="projectsTitle">مشاريع من GitHub</h2></div>
+          <p id="projects-note" data-i18n="projectsNote">يتم تحميل أحدث المستودعات والأشهر تلقائيًا.</p>
+        </div>
+        <div id="projects-grid" class="projects-grid" aria-live="polite">
+          <div class="loader"><i></i><i></i><i></i> <span data-i18n="loading">جارِ تحميل المشاريع</span></div>
+        </div>
+        <p id="projects-error" class="projects-error" hidden></p>
+      </section>
+
+      <section id="contact" class="contact container">
+        <p class="section-label" data-i18n="contactLabel">03 / لنبدأ</p>
+        <h2 data-i18n-html="contactTitle">هل لديك فكرة<br />تستحق أن تُبنى؟</h2>
+        <a class="email-link" href="mailto:snono.dev@gmail.com">snono.dev@gmail.com <span>↖</span></a>
+      </section>
+    </main>
+
+    <footer class="container"><span>© <span id="year"></span> <span data-i18n="rights">جميع الحقوق محفوظة</span></span><a class="github-profile" href="#" target="_blank" rel="noreferrer">GitHub ↗</a></footer>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

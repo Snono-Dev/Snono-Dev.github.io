@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="تواصل مباشر عبر Session" />
+    <title>Session | Snono-Dev</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="session-page">
+    <main class="session-card">
+      <a class="back-link" href="index.html">← <span data-i18n="back">العودة إلى الموقع</span></a>
+      <p class="eyebrow">SESSION / DIRECT CHAT</p>
+      <h1 data-i18n="title">تواصل معي مباشرةً</h1>
+      <p class="session-copy" data-i18n="intro">امسح رمز QR بتطبيق Session لبدء محادثة خاصة ومشفّرة.</p>
+      <div id="session-qr" class="session-qr" aria-label="Session QR code"></div>
+      <p id="session-id" class="session-id"></p>
+      <a id="session-link" class="button button-primary" href="#" target="_blank" rel="noreferrer" hidden data-i18n="open">فتح Session ↗</a>
+      <p id="session-empty" class="session-empty" hidden></p>
+    </main>
+    <script src="config.js"></script>
+    <script src="session.js"></script>
+  </body>
+</html>
