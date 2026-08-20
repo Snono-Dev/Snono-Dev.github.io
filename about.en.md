@@ -9,6 +9,7 @@ hero_title: I turn ideas into
 hero_emphasis: interfaces that matter.
 hero_copy: I design and build fast, clear web experiences with attention to the details that make a product useful and memorable.
 skills: JavaScript, React, HTML / CSS, UI Design, Node.js
+visible: false
 ---
 
 # About me
