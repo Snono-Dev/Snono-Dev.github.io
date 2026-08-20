@@ -1,23 +1,22 @@
 ---
 name: Snono-Dev
-role: Independent Programmer & Developer
+role: مبرمج ومطور مستقل
 github_username: Snono-Dev
 email: snono.dev@gmail.com
 session_id: "0531c92a56798d6a33598460ad057fd9ead76482e6bc69be946cad6c733ea7f06c"
-eyebrow: INDEPENDENT PROGRAMMER / WEB DEVELOPER
-hero_title: I turn ideas into
-hero_emphasis: interfaces that matter.
-hero_copy: I design and build fast, clear web experiences with attention to the details that make a product useful and memorable.
-visible: false
+eyebrow: مبرمج مستقل / مطور ويب
+hero_title: أحوّل الأفكار إلى
+hero_emphasis: واجهات لها أثر.
+hero_copy: أصمّم وأبني تجارب ويب سريعة وواضحة، مع اهتمام بالتفاصيل التي تجعل المنتج سهل الاستخدام ولا يُنسى.
 skills: JavaScript, React, HTML / CSS, UI Design, Node.js
 ---
 
-# About me
+# عني
 
-I'm **Snono-Dev**, an independent programmer and developer. I build digital products that combine **clear design** with reliable, fast code.
+أنا **Snono-Dev**، مبرمج ومطور مستقل. أبني منتجات رقمية تجمع بين **التصميم الواضح** والكود السريع والموثوق.
 
-## How I work
+## كيف أعمل
 
-- Start by understanding the problem and its users.
-- Build responsive, accessible interfaces.
-- Keep the code organised and easy to evolve.
+- أبدأ بفهم المشكلة واحتياجات المستخدمين.
+- أبني واجهات متجاوبة وسهلة الوصول.
+- أحرص على كود منظم وسهل التطوير.

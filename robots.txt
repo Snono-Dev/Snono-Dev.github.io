@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /session.html
+
+Sitemap: https://snono-dev.github.io/sitemap.xml
