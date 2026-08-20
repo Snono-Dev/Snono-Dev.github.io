@@ -4,11 +4,12 @@ role: مبرمج ومطور مستقل
 github_username: Snono-Dev
 email: snono.dev@gmail.com
 session_id: "0531c92a56798d6a33598460ad057fd9ead76482e6bc69be946cad6c733ea7f06c"
-eyebrow: مبرمج مستقل / مطور ويب
+eyebrow: مبرمج مستقل / مطور
 hero_title: أحوّل الأفكار إلى
 hero_emphasis: واجهات لها أثر.
 hero_copy: أصمّم وأبني تجارب ويب سريعة وواضحة، مع اهتمام بالتفاصيل التي تجعل المنتج سهل الاستخدام ولا يُنسى.
 skills: JavaScript, React, HTML / CSS, UI Design, Node.js
+visible: false
 ---
 
 # عني
